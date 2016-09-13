@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8497A2401D886E670041A6D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A23F1D886E670041A6D0 /* main.m */; };
+		8497A2431D886E670041A6D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A2421D886E670041A6D0 /* AppDelegate.m */; };
+		8497A2491D886E670041A6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2471D886E670041A6D0 /* Main.storyboard */; };
+		8497A24B1D886E670041A6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8497A24A1D886E670041A6D0 /* Assets.xcassets */; };
+		8497A24E1D886E670041A6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497A24C1D886E670041A6D0 /* LaunchScreen.storyboard */; };
+		8497A2591D886E670041A6D0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A2581D886E670041A6D0 /* ______Tests.m */; };
+		8497A2641D886E670041A6D0 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A2631D886E670041A6D0 /* ______UITests.m */; };
+		8497A28D1D8870D60041A6D0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A28C1D8870D60041A6D0 /* RootViewController.m */; };
+		8497A2901D8879E00041A6D0 /* FindMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A28F1D8879E00041A6D0 /* FindMusicVC.m */; };
+		8497A2931D8879FC0041A6D0 /* MineMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A2921D8879FC0041A6D0 /* MineMusicVC.m */; };
+		8497A2961D887A0E0041A6D0 /* FriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A2951D887A0E0041A6D0 /* FriendVC.m */; };
+		8497A2991D887A240041A6D0 /* MeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497A2981D887A240041A6D0 /* MeVC.m */; };
+		8497A2A71D88A5BE0041A6D0 /* cm2_btm_icn_account@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A29E1D88A5BE0041A6D0 /* cm2_btm_icn_account@3x.png */; };
+		8497A2A81D88A5BE0041A6D0 /* cm2_btm_icn_account_prs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A29F1D88A5BE0041A6D0 /* cm2_btm_icn_account_prs@3x.png */; };
+		8497A2A91D88A5BE0041A6D0 /* cm2_btm_icn_discovery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2A01D88A5BE0041A6D0 /* cm2_btm_icn_discovery@3x.png */; };
+		8497A2AA1D88A5BE0041A6D0 /* cm2_btm_icn_discovery_prs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2A11D88A5BE0041A6D0 /* cm2_btm_icn_discovery_prs@3x.png */; };
+		8497A2AB1D88A5BE0041A6D0 /* cm2_btm_icn_friend@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2A21D88A5BE0041A6D0 /* cm2_btm_icn_friend@3x.png */; };
+		8497A2AC1D88A5BE0041A6D0 /* cm2_btm_icn_friend_prs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2A31D88A5BE0041A6D0 /* cm2_btm_icn_friend_prs@3x.png */; };
+		8497A2AD1D88A5BE0041A6D0 /* cm2_btm_icn_music@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2A41D88A5BE0041A6D0 /* cm2_btm_icn_music@3x.png */; };
+		8497A2AE1D88A5BE0041A6D0 /* cm2_btm_icn_music_prs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2A51D88A5BE0041A6D0 /* cm2_btm_icn_music_prs@3x.png */; };
+		8497A2AF1D88A5BE0041A6D0 /* cm2_btm_tab_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2A61D88A5BE0041A6D0 /* cm2_btm_tab_right@3x.png */; };
+		8497A2B11D88A8090041A6D0 /* start_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8497A2B01D88A8090041A6D0 /* start_image.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8497A2551D886E670041A6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8497A2331D886E670041A6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8497A23A1D886E670041A6D0;
+			remoteInfo = "仿网易云音乐";
+		};
+		8497A2601D886E670041A6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8497A2331D886E670041A6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8497A23A1D886E670041A6D0;
+			remoteInfo = "仿网易云音乐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8497A23B1D886E670041A6D0 /* 仿网易云音乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿网易云音乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8497A23F1D886E670041A6D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8497A2411D886E670041A6D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		8497A2421D886E670041A6D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		8497A2481D886E670041A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8497A24A1D886E670041A6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8497A24D1D886E670041A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8497A24F1D886E670041A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497A2541D886E670041A6D0 /* 仿网易云音乐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿网易云音乐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8497A2581D886E670041A6D0 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		8497A25A1D886E670041A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497A25F1D886E670041A6D0 /* 仿网易云音乐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿网易云音乐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8497A2631D886E670041A6D0 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		8497A2651D886E670041A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497A28A1D886FD00041A6D0 /* CloudMusic.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudMusic.pch; sourceTree = "<group>"; };
+		8497A28B1D8870D60041A6D0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8497A28C1D8870D60041A6D0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8497A28E1D8879E00041A6D0 /* FindMusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMusicVC.h; sourceTree = "<group>"; };
+		8497A28F1D8879E00041A6D0 /* FindMusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindMusicVC.m; sourceTree = "<group>"; };
+		8497A2911D8879FC0041A6D0 /* MineMusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMusicVC.h; sourceTree = "<group>"; };
+		8497A2921D8879FC0041A6D0 /* MineMusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMusicVC.m; sourceTree = "<group>"; };
+		8497A2941D887A0E0041A6D0 /* FriendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendVC.h; sourceTree = "<group>"; };
+		8497A2951D887A0E0041A6D0 /* FriendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendVC.m; sourceTree = "<group>"; };
+		8497A2971D887A240041A6D0 /* MeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeVC.h; sourceTree = "<group>"; };
+		8497A2981D887A240041A6D0 /* MeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeVC.m; sourceTree = "<group>"; };
+		8497A29E1D88A5BE0041A6D0 /* cm2_btm_icn_account@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_account@3x.png"; sourceTree = "<group>"; };
+		8497A29F1D88A5BE0041A6D0 /* cm2_btm_icn_account_prs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_account_prs@3x.png"; sourceTree = "<group>"; };
+		8497A2A01D88A5BE0041A6D0 /* cm2_btm_icn_discovery@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_discovery@3x.png"; sourceTree = "<group>"; };
+		8497A2A11D88A5BE0041A6D0 /* cm2_btm_icn_discovery_prs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_discovery_prs@3x.png"; sourceTree = "<group>"; };
+		8497A2A21D88A5BE0041A6D0 /* cm2_btm_icn_friend@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_friend@3x.png"; sourceTree = "<group>"; };
+		8497A2A31D88A5BE0041A6D0 /* cm2_btm_icn_friend_prs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_friend_prs@3x.png"; sourceTree = "<group>"; };
+		8497A2A41D88A5BE0041A6D0 /* cm2_btm_icn_music@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_music@3x.png"; sourceTree = "<group>"; };
+		8497A2A51D88A5BE0041A6D0 /* cm2_btm_icn_music_prs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_icn_music_prs@3x.png"; sourceTree = "<group>"; };
+		8497A2A61D88A5BE0041A6D0 /* cm2_btm_tab_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_btm_tab_right@3x.png"; sourceTree = "<group>"; };
+		8497A2B01D88A8090041A6D0 /* start_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start_image.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8497A2381D886E670041A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497A2511D886E670041A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497A25C1D886E670041A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8497A2321D886E670041A6D0 = {
+			isa = PBXGroup;
+			children = (
+				8497A23D1D886E670041A6D0 /* 仿网易云音乐 */,
+				8497A2571D886E670041A6D0 /* 仿网易云音乐Tests */,
+				8497A2621D886E670041A6D0 /* 仿网易云音乐UITests */,
+				8497A23C1D886E670041A6D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8497A23C1D886E670041A6D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8497A23B1D886E670041A6D0 /* 仿网易云音乐.app */,
+				8497A2541D886E670041A6D0 /* 仿网易云音乐Tests.xctest */,
+				8497A25F1D886E670041A6D0 /* 仿网易云音乐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8497A23D1D886E670041A6D0 /* 仿网易云音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2711D886F830041A6D0 /* Class */,
+				8497A2471D886E670041A6D0 /* Main.storyboard */,
+				8497A24A1D886E670041A6D0 /* Assets.xcassets */,
+				8497A24C1D886E670041A6D0 /* LaunchScreen.storyboard */,
+				8497A24F1D886E670041A6D0 /* Info.plist */,
+				8497A23E1D886E670041A6D0 /* Supporting Files */,
+			);
+			path = "仿网易云音乐";
+			sourceTree = "<group>";
+		};
+		8497A23E1D886E670041A6D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8497A23F1D886E670041A6D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8497A2571D886E670041A6D0 /* 仿网易云音乐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2581D886E670041A6D0 /* ______Tests.m */,
+				8497A25A1D886E670041A6D0 /* Info.plist */,
+			);
+			path = "仿网易云音乐Tests";
+			sourceTree = "<group>";
+		};
+		8497A2621D886E670041A6D0 /* 仿网易云音乐UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2631D886E670041A6D0 /* ______UITests.m */,
+				8497A2651D886E670041A6D0 /* Info.plist */,
+			);
+			path = "仿网易云音乐UITests";
+			sourceTree = "<group>";
+		};
+		8497A2711D886F830041A6D0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2721D886F830041A6D0 /* AppDelegate */,
+				8497A2731D886F830041A6D0 /* General */,
+				8497A2741D886F830041A6D0 /* Helper */,
+				8497A2751D886F830041A6D0 /* Macros */,
+				8497A2761D886F830041A6D0 /* Other */,
+				8497A2771D886F830041A6D0 /* Resource */,
+				8497A2781D886F830041A6D0 /* Scenes */,
+				8497A2891D886F830041A6D0 /* Vendors */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8497A2721D886F830041A6D0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2411D886E670041A6D0 /* AppDelegate.h */,
+				8497A2421D886E670041A6D0 /* AppDelegate.m */,
+				8497A28B1D8870D60041A6D0 /* RootViewController.h */,
+				8497A28C1D8870D60041A6D0 /* RootViewController.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8497A2731D886F830041A6D0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		8497A2741D886F830041A6D0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8497A2751D886F830041A6D0 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				8497A28A1D886FD00041A6D0 /* CloudMusic.pch */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		8497A2761D886F830041A6D0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8497A2771D886F830041A6D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2B01D88A8090041A6D0 /* start_image.jpg */,
+				8497A29D1D88A5BE0041A6D0 /* tabbar_icon */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8497A2781D886F830041A6D0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2791D886F830041A6D0 /* FindMusic */,
+				8497A2851D886F830041A6D0 /* MineMusic */,
+				8497A27D1D886F830041A6D0 /* Friend */,
+				8497A2811D886F830041A6D0 /* Me */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8497A2791D886F830041A6D0 /* FindMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8497A27A1D886F830041A6D0 /* Controller */,
+				8497A27B1D886F830041A6D0 /* Model */,
+				8497A27C1D886F830041A6D0 /* View */,
+			);
+			path = FindMusic;
+			sourceTree = "<group>";
+		};
+		8497A27A1D886F830041A6D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8497A28E1D8879E00041A6D0 /* FindMusicVC.h */,
+				8497A28F1D8879E00041A6D0 /* FindMusicVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8497A27B1D886F830041A6D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8497A27C1D886F830041A6D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8497A27D1D886F830041A6D0 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				8497A27E1D886F830041A6D0 /* Controller */,
+				8497A27F1D886F830041A6D0 /* Model */,
+				8497A2801D886F830041A6D0 /* View */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		8497A27E1D886F830041A6D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2941D887A0E0041A6D0 /* FriendVC.h */,
+				8497A2951D887A0E0041A6D0 /* FriendVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8497A27F1D886F830041A6D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8497A2801D886F830041A6D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8497A2811D886F830041A6D0 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2821D886F830041A6D0 /* Controller */,
+				8497A2831D886F830041A6D0 /* Model */,
+				8497A2841D886F830041A6D0 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8497A2821D886F830041A6D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2971D887A240041A6D0 /* MeVC.h */,
+				8497A2981D887A240041A6D0 /* MeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8497A2831D886F830041A6D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8497A2841D886F830041A6D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8497A2851D886F830041A6D0 /* MineMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2861D886F830041A6D0 /* Controller */,
+				8497A2871D886F830041A6D0 /* Model */,
+				8497A2881D886F830041A6D0 /* View */,
+			);
+			path = MineMusic;
+			sourceTree = "<group>";
+		};
+		8497A2861D886F830041A6D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8497A2911D8879FC0041A6D0 /* MineMusicVC.h */,
+				8497A2921D8879FC0041A6D0 /* MineMusicVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8497A2871D886F830041A6D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8497A2881D886F830041A6D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8497A2891D886F830041A6D0 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		8497A29D1D88A5BE0041A6D0 /* tabbar_icon */ = {
+			isa = PBXGroup;
+			children = (
+				8497A29E1D88A5BE0041A6D0 /* cm2_btm_icn_account@3x.png */,
+				8497A29F1D88A5BE0041A6D0 /* cm2_btm_icn_account_prs@3x.png */,
+				8497A2A01D88A5BE0041A6D0 /* cm2_btm_icn_discovery@3x.png */,
+				8497A2A11D88A5BE0041A6D0 /* cm2_btm_icn_discovery_prs@3x.png */,
+				8497A2A21D88A5BE0041A6D0 /* cm2_btm_icn_friend@3x.png */,
+				8497A2A31D88A5BE0041A6D0 /* cm2_btm_icn_friend_prs@3x.png */,
+				8497A2A41D88A5BE0041A6D0 /* cm2_btm_icn_music@3x.png */,
+				8497A2A51D88A5BE0041A6D0 /* cm2_btm_icn_music_prs@3x.png */,
+				8497A2A61D88A5BE0041A6D0 /* cm2_btm_tab_right@3x.png */,
+			);
+			path = tabbar_icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8497A23A1D886E670041A6D0 /* 仿网易云音乐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8497A2681D886E670041A6D0 /* Build configuration list for PBXNativeTarget "仿网易云音乐" */;
+			buildPhases = (
+				8497A2371D886E670041A6D0 /* Sources */,
+				8497A2381D886E670041A6D0 /* Frameworks */,
+				8497A2391D886E670041A6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿网易云音乐";
+			productName = "仿网易云音乐";
+			productReference = 8497A23B1D886E670041A6D0 /* 仿网易云音乐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8497A2531D886E670041A6D0 /* 仿网易云音乐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8497A26B1D886E670041A6D0 /* Build configuration list for PBXNativeTarget "仿网易云音乐Tests" */;
+			buildPhases = (
+				8497A2501D886E670041A6D0 /* Sources */,
+				8497A2511D886E670041A6D0 /* Frameworks */,
+				8497A2521D886E670041A6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8497A2561D886E670041A6D0 /* PBXTargetDependency */,
+			);
+			name = "仿网易云音乐Tests";
+			productName = "仿网易云音乐Tests";
+			productReference = 8497A2541D886E670041A6D0 /* 仿网易云音乐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8497A25E1D886E670041A6D0 /* 仿网易云音乐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8497A26E1D886E670041A6D0 /* Build configuration list for PBXNativeTarget "仿网易云音乐UITests" */;
+			buildPhases = (
+				8497A25B1D886E670041A6D0 /* Sources */,
+				8497A25C1D886E670041A6D0 /* Frameworks */,
+				8497A25D1D886E670041A6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8497A2611D886E670041A6D0 /* PBXTargetDependency */,
+			);
+			name = "仿网易云音乐UITests";
+			productName = "仿网易云音乐UITests";
+			productReference = 8497A25F1D886E670041A6D0 /* 仿网易云音乐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8497A2331D886E670041A6D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YL;
+				TargetAttributes = {
+					8497A23A1D886E670041A6D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8497A2531D886E670041A6D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8497A23A1D886E670041A6D0;
+					};
+					8497A25E1D886E670041A6D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8497A23A1D886E670041A6D0;
+					};
+				};
+			};
+			buildConfigurationList = 8497A2361D886E670041A6D0 /* Build configuration list for PBXProject "仿网易云音乐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8497A2321D886E670041A6D0;
+			productRefGroup = 8497A23C1D886E670041A6D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8497A23A1D886E670041A6D0 /* 仿网易云音乐 */,
+				8497A2531D886E670041A6D0 /* 仿网易云音乐Tests */,
+				8497A25E1D886E670041A6D0 /* 仿网易云音乐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8497A2391D886E670041A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497A24E1D886E670041A6D0 /* LaunchScreen.storyboard in Resources */,
+				8497A2AF1D88A5BE0041A6D0 /* cm2_btm_tab_right@3x.png in Resources */,
+				8497A2A71D88A5BE0041A6D0 /* cm2_btm_icn_account@3x.png in Resources */,
+				8497A2A91D88A5BE0041A6D0 /* cm2_btm_icn_discovery@3x.png in Resources */,
+				8497A2AC1D88A5BE0041A6D0 /* cm2_btm_icn_friend_prs@3x.png in Resources */,
+				8497A2AB1D88A5BE0041A6D0 /* cm2_btm_icn_friend@3x.png in Resources */,
+				8497A2AE1D88A5BE0041A6D0 /* cm2_btm_icn_music_prs@3x.png in Resources */,
+				8497A24B1D886E670041A6D0 /* Assets.xcassets in Resources */,
+				8497A2A81D88A5BE0041A6D0 /* cm2_btm_icn_account_prs@3x.png in Resources */,
+				8497A2AA1D88A5BE0041A6D0 /* cm2_btm_icn_discovery_prs@3x.png in Resources */,
+				8497A2491D886E670041A6D0 /* Main.storyboard in Resources */,
+				8497A2AD1D88A5BE0041A6D0 /* cm2_btm_icn_music@3x.png in Resources */,
+				8497A2B11D88A8090041A6D0 /* start_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497A2521D886E670041A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497A25D1D886E670041A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8497A2371D886E670041A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497A2961D887A0E0041A6D0 /* FriendVC.m in Sources */,
+				8497A2931D8879FC0041A6D0 /* MineMusicVC.m in Sources */,
+				8497A2431D886E670041A6D0 /* AppDelegate.m in Sources */,
+				8497A28D1D8870D60041A6D0 /* RootViewController.m in Sources */,
+				8497A2401D886E670041A6D0 /* main.m in Sources */,
+				8497A2901D8879E00041A6D0 /* FindMusicVC.m in Sources */,
+				8497A2991D887A240041A6D0 /* MeVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497A2501D886E670041A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497A2591D886E670041A6D0 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497A25B1D886E670041A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497A2641D886E670041A6D0 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8497A2561D886E670041A6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8497A23A1D886E670041A6D0 /* 仿网易云音乐 */;
+			targetProxy = 8497A2551D886E670041A6D0 /* PBXContainerItemProxy */;
+		};
+		8497A2611D886E670041A6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8497A23A1D886E670041A6D0 /* 仿网易云音乐 */;
+			targetProxy = 8497A2601D886E670041A6D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8497A2471D886E670041A6D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8497A2481D886E670041A6D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8497A24C1D886E670041A6D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8497A24D1D886E670041A6D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8497A2661D886E670041A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8497A2671D886E670041A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8497A2691D886E670041A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/仿网易云音乐/Class/Macros/CloudMusic.pch";
+				INFOPLIST_FILE = "仿网易云音乐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baxin.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8497A26A1D886E670041A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/仿网易云音乐/Class/Macros/CloudMusic.pch";
+				INFOPLIST_FILE = "仿网易云音乐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baxin.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8497A26C1D886E670041A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿网易云音乐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baxin.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿网易云音乐.app/仿网易云音乐";
+			};
+			name = Debug;
+		};
+		8497A26D1D886E670041A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿网易云音乐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baxin.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿网易云音乐.app/仿网易云音乐";
+			};
+			name = Release;
+		};
+		8497A26F1D886E670041A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿网易云音乐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baxin.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿网易云音乐";
+			};
+			name = Debug;
+		};
+		8497A2701D886E670041A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿网易云音乐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baxin.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿网易云音乐";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8497A2361D886E670041A6D0 /* Build configuration list for PBXProject "仿网易云音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497A2661D886E670041A6D0 /* Debug */,
+				8497A2671D886E670041A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8497A2681D886E670041A6D0 /* Build configuration list for PBXNativeTarget "仿网易云音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497A2691D886E670041A6D0 /* Debug */,
+				8497A26A1D886E670041A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8497A26B1D886E670041A6D0 /* Build configuration list for PBXNativeTarget "仿网易云音乐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497A26C1D886E670041A6D0 /* Debug */,
+				8497A26D1D886E670041A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8497A26E1D886E670041A6D0 /* Build configuration list for PBXNativeTarget "仿网易云音乐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497A26F1D886E670041A6D0 /* Debug */,
+				8497A2701D886E670041A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8497A2331D886E670041A6D0 /* Project object */;
+}
